@@ -1,0 +1,9 @@
+
+//fatal: refusing to merge unrelated histories
+//fixing
+
+git pull origin branchname --allow-unrelated-histories
+
+git pull origin main
+
+git push -u origin main
